@@ -1,4 +1,4 @@
-# JavaScript toolchain configs (for Choice)
+# JavaScript configs (for Choice)
 
 - typescript
 - eslint
@@ -11,7 +11,7 @@
 
 ```
 {
-  "extends": "choice-js/tsconfig"
+  "extends": "choice-js/ts"
 }
 ```
 
@@ -22,7 +22,7 @@
 ```
 {
   "extends": [
-    "choice-js/eslintrc"
+    "node_modules/choice-js/eslint.js"
   ]
 }
 ```
@@ -32,13 +32,13 @@
 `babel.config.js`
 
 ```
-module.exports = require('choice-js/babel.config')
+module.exports = require('choice-js/babel')
 ```
 
 ## prettier
 
-`.prettierrc`
+`.prettierrc.js`
 
 ```
-"choice-js/prettier"
+module.exports = require('choice-js/prettier')
 ```
