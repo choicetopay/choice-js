@@ -1,0 +1,45 @@
+{
+  "name": "js-toolchains",
+  "private": true,
+  "version": "0.0.0",
+  "description": "shareable eslint config for choice",
+  "main": "index.js",
+  "prettier": "./prettier.json",
+  "scripts": {
+    "build": "babel example-src --out-dir example-lib --extensions \".js,.ts,.tsx\" --source-maps inline",
+    "lint": "eslint . example-src/*",
+    "lint:fix": "eslint . example-src/* --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/choicetopay/js-toolchains.git"
+  },
+  "author": "Choice Limited",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/choicetopay/js-toolchains/issues"
+  },
+  "homepage": "https://github.com/choicetopay/js-toolchains#readme",
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@babel/runtime": "^7.4.5",
+    "@typescript-eslint/eslint-plugin": "^1.9.0",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "prettier": "^1.17.1",
+    "typescript": "~3.4.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/preset-typescript": "^7.3.3"
+  }
+}
