@@ -1,13 +1,15 @@
 module.exports = {
-  presets: ['@babel/typescript'],
+  presets: [
+    require.resolve('@babel/preset-typescript')
+  ],
   plugins: [
     [
-      'module-resolver',
+      require.resolve('babel-plugin-module-resolver'),
       {
         root: ['./src'],
-        extensions: ['.js', '.ts', '.tsx', '.ios.js', '.android.js'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx', '.ios.js', '.android.js'],
       },
     ],
-    '@babel/plugin-transform-runtime',
+    require.resolve('@babel/plugin-transform-runtime'),
   ],
 }
