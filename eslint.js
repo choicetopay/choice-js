@@ -14,7 +14,7 @@ module.exports = {
   },
   rules: {
     '@typescript-eslint/adjacent-overload-signatures': 'error',
-    '@typescript-eslint/array-type': 'error',
+    '@typescript-eslint/array-type': ['error', 'generic'],
     '@typescript-eslint/await-thenable': 'warn',
     '@typescript-eslint/ban-ts-ignore': 'off',
     '@typescript-eslint/ban-types': 'error',
@@ -25,6 +25,7 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': [
       'warn',
       {
+        allowTypedFunctionExpressions: true,
         allowHigherOrderFunctions: true,
       },
     ],
@@ -49,7 +50,7 @@ module.exports = {
     '@typescript-eslint/no-for-in-array': 'error',
     '@typescript-eslint/no-inferrable-types': 'error',
     'no-magic-numbers': 'off',
-    '@typescript-eslint/no-magic-numbers': 'warn',
+    '@typescript-eslint/no-magic-numbers': 'off',
     '@typescript-eslint/no-misused-new': 'error',
     '@typescript-eslint/no-namespace': 'error',
     '@typescript-eslint/no-non-null-assertion': 'error',
