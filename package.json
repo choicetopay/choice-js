@@ -1,7 +1,7 @@
 {
   "name": "choice-js",
   "private": true,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "shareable eslint config for choice",
   "main": "index.js",
   "prettier": "./prettier.json",
