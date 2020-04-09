@@ -21,26 +21,26 @@
   },
   "homepage": "https://github.com/choicetopay/choice-js#readme",
   "dependencies": {
-    "@babel/core": "^7.6.0",
-    "@babel/plugin-transform-runtime": "^7.6.0",
-    "@babel/preset-typescript": "^7.6.0",
-    "@babel/runtime": "^7.6.0",
-    "@typescript-eslint/eslint-plugin": "^2.3.0",
-    "@typescript-eslint/parser": "^2.3.0",
-    "babel-plugin-module-resolver": "^3.2.0",
-    "eslint-config-prettier": "^6.3.0",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-node": "^9.2.0",
-    "eslint-plugin-prettier": "^3.1.0",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-typescript": "^7.9.0",
+    "@babel/runtime": "^7.9.2",
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-standard": "^4.0.1",
-    "prettier": "^1.18.2"
+    "prettier": "^2.0.4"
   },
   "devDependencies": {
-    "@babel/cli": "^7.6.0",
-    "eslint": "^6.4.0",
-    "typescript": "^3.6.3"
+    "@babel/cli": "^7.8.4",
+    "eslint": "^6.8.0",
+    "typescript": "^3.8.3"
   }
 }
