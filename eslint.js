@@ -22,13 +22,7 @@ module.exports = {
     '@typescript-eslint/camelcase': 'error',
     '@typescript-eslint/class-name-casing': 'error',
     'comma-dangle': ['error', 'always-multiline'],
-    '@typescript-eslint/explicit-function-return-type': [
-      'warn',
-      {
-        allowTypedFunctionExpressions: true,
-        allowHigherOrderFunctions: true,
-      },
-    ],
+    '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-member-accessibility': 'warn',
     'func-call-spacing': 'off',
     '@typescript-eslint/func-call-spacing': 'error',
